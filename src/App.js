@@ -40,10 +40,16 @@ export default function App() {
   return (
     <div className="App">
       <h1>{headingText}</h1>
-      <input onChange={inputHandler}></input>
-      <div>{userInput}</div>
+      <input
+        className="input"
+        placeholder="put your emoji here"
+        onChange={inputHandler}
+      ></input>
+      <div className="output" placeholder="output will come here">
+        {userInput}
+      </div>
       <h3>Click Below Emojis to know their meaning</h3>
-      <div>
+      <div className="emoji">
         {emojiArray.map((emoji) => {
           return (
             <span key={emoji} onClick={() => clickHandler(emoji)}>
