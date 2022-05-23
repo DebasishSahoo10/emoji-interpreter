@@ -4,6 +4,7 @@
 body {
   background-image: linear-gradient(to right, #6f84df, #153bd1);
   backdrop-filter: blur(10px);
+  text-align: center;
   margin: 0;
 }
 
@@ -15,7 +16,6 @@ h1 {
 h3 {
   color: gainsboro;
   width: 80%;
-  text-align: center;
 }
 
 .App {
