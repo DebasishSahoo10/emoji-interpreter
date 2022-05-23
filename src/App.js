@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
-var headingText = "Fruits Emoji Interpreter";
+
 var emojiDictionary = {
   "🍇": "Grapes",
   "🍈": "Melon",
@@ -39,10 +39,12 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>{headingText}</h1>
+      <h1>Fruits</h1>
+      <h1>Emoji</h1>
+      <h1>Interpreter</h1>
       <input
         className="input"
-        placeholder="put your emoji here"
+        placeholder="Put Your Emoji Here"
         onChange={inputHandler}
       ></input>
       <div className="output" placeholder="output will come here">
