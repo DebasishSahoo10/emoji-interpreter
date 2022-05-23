@@ -3,6 +3,7 @@
 
 body {
   background-image: linear-gradient(to right, #6f84df, #153bd1);
+  backdrop-filter: blur(10px);
   margin: 0;
 }
 
